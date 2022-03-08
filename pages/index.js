@@ -9,7 +9,7 @@ const HomePage = () => {
 			<Header/>
 			<WaveBackground/>
 			<div className={styles.indexDescriptionBox}>
-				<span>Description Here</span>
+				<span>Are We Live?</span>
 			</div>
 		</div>
   	);
