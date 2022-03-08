@@ -4,9 +4,9 @@ import AlbumCard from "./AlbumCard";
 import styles from "./postsList.module.scss";
 
 const PostsList = () => {
-    const allPosts = posts.map((post) => {
+    const allPosts = posts.map((post, i) => {
         return (
-            <AlbumCard album={post}/>
+            <AlbumCard album={post} key={i}/>
         );
     })
 
