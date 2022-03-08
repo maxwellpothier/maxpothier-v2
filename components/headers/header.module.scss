@@ -1,6 +1,6 @@
 .headerContainer {
     background-color: #4A5FC1;
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     padding: 0 25px;
@@ -16,7 +16,8 @@
 
 .headerSocialIcons {
     display: grid;
-    grid-template-columns: repeat(3, 50px);
+    grid-template-columns: repeat(3, 30px);
+    gap: 20px;
     align-items: center;
 }
 

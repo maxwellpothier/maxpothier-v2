@@ -1,5 +1,7 @@
-import Header from "../components/Header";
+import Header from "../components/headers/Header";
 import WaveBackground from "../components/WaveBackground";
+import PageHeader from "../components/headers/PageHeader";
+import PostsList from "../components/PostsList";
 
 import styles from "./index.module.scss";
 
@@ -8,9 +10,8 @@ const HomePage = () => {
     	<div className={styles.indexContainer}>
 			<Header/>
 			<WaveBackground/>
-			<div className={styles.indexDescriptionBox}>
-				<span>Are We Live?</span>
-			</div>
+			<PageHeader title={"Blog"} subtitle={"Recent Posts"}/>
+			<PostsList/>
 		</div>
   	);
 };
