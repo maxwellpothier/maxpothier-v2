@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Kayak';
+    src: url("../public/fonts/Kayak\ Sans\ Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Liquido';
+    src: url("../public/fonts/LIQUIDO-Fluid.otf") format("opentype");
+}
+
+body {
+    margin: 0;
+}

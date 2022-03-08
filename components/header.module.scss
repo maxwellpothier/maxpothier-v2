@@ -1,0 +1,30 @@
+.headerContainer {
+    background-color: #4A5FC1;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.headerLogo {
+    font-family: "Liquido";
+    font-size: 48px;
+    letter-spacing: 5px;
+    color: #9CF6FB;
+    align-self: center;
+}
+
+.headerSocialIcons {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    align-items: center;
+}
+
+.headerIcon {
+    font-size: 28px;
+    color: #9CF6FB;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
