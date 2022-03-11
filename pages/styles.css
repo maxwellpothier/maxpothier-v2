@@ -6,6 +6,14 @@
     font-family: 'Liquido';
     src: url("../public/fonts/LIQUIDO-Fluid.otf") format("opentype");
 }
+@font-face {
+    font-family: 'Alfa Slab';
+    src: url("../public/fonts/AlfaSlabOne-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../public/fonts/OpenSans-VariableFont_wdth\,wght.otf") format("opentype");
+}
 
 body {
     margin: 0;

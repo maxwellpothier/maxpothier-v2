@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: -170px;
+    margin-top: -10px;
+    margin-bottom: 50px;
     z-index: 10;
     position: relative;
     color: #394F8A;
@@ -11,12 +13,12 @@
 
 .pageHeaderTitle {
     font-size: 42px;
-    font-family: "Kayak";
+    font-family: "Alfa Slab";
     letter-spacing: 3px;
     margin-bottom: 10px;
 }
 
 .pageHeaderSubtitle {
     font-size: 24px;
-    font-family: "Kayak";
+    font-family: "Open Sans";
 }

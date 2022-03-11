@@ -3,7 +3,7 @@
     height: 70px;
     display: flex;
     justify-content: space-between;
-    padding: 0 25px;
+    padding: 0 15px;
 }
 
 .headerLogo {
@@ -17,12 +17,12 @@
 .headerSocialIcons {
     display: grid;
     grid-template-columns: repeat(3, 30px);
-    gap: 20px;
+    gap: 8px;
     align-items: center;
 }
 
 .headerIcon {
-    font-size: 28px;
+    font-size: 24px;
     color: #9CF6FB;
 
     &:hover {

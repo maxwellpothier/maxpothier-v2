@@ -4,7 +4,7 @@ import AlbumCard from "./AlbumCard";
 import styles from "./postsList.module.scss";
 
 const PostsList = () => {
-    const allPosts = posts.map((post, i) => {
+    const recentPosts = posts.map((post, i) => {
         return (
             <AlbumCard album={post} key={i}/>
         );
@@ -12,7 +12,7 @@ const PostsList = () => {
 
     return (
         <div className={styles.postsListContainer}>
-            {allPosts}
+            {recentPosts}
         </div>
     );
 };

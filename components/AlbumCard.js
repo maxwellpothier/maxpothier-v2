@@ -5,15 +5,18 @@ import styles from "./albumCard.module.scss";
 const AlbumCard = ({album}) => {
     return (
         <div className={styles.albumCardContainer}>
-            <Image
-                className={styles.albumCardImage}
-                src={album.url}
-                alt={album.title}
-                width={200}
-                height={200}
-            />
-            {album.title}
-            {album.artist}
+            <div>
+                <Image
+                    className={styles.albumCardImage}
+                    src={album.url}
+                    alt={album.title}
+                    width={200}
+                    height={200}
+                />
+            </div>
+            <span className={styles.albumCardTitle}>{album.title}</span>
+            <span className={styles.albumCardArtist}>{album.artist}</span>
+            {/* <button className={styles.albumCardButton}>Read More</button> */}
         </div>
     );
 };
