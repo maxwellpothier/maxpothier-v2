@@ -2,17 +2,19 @@ import Header from "../components/headers/Header";
 import WaveBackground from "../components/WaveBackground";
 import PageHeader from "../components/headers/PageHeader";
 import PostsList from "../components/PostsList";
-
-import styles from "./index.module.scss";
+import Link from "next/link";
 
 const HomePage = () => {
   	return (
-    	<div className={styles.indexContainer}>
+    	<>
 			<Header/>
 			<WaveBackground/>
 			<PageHeader title={"Blog"} subtitle={"Recent Posts"}/>
 			<PostsList/>
-		</div>
+			<Link href={"./posts/post-template"}>
+				<a>Post Template</a>
+			</Link>
+		</>
   	);
 };
 

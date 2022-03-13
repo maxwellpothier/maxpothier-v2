@@ -8,7 +8,7 @@
     max-width: 200px;
     padding: 15px;
     background-color: white;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: 0 0 12px #808080;
     height: 292px;
     transition: transform 250ms ease-in;
@@ -25,7 +25,8 @@
 }
 
 .albumCardImage {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    // box-shadow: 0 0 5px #808080;
 }
 
 .albumCardBottomSection {

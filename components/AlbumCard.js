@@ -5,9 +5,8 @@ import styles from "./albumCard.module.scss";
 const AlbumCard = ({album}) => {
     return (
         <div className={styles.albumCardContainer}>
-            <div>
+            <div className={styles.albumCardImage}>
                 <Image
-                    className={styles.albumCardImage}
                     src={album.url}
                     alt={album.title}
                     width={200}

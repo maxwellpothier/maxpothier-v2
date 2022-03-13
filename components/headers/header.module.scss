@@ -6,12 +6,16 @@
     padding: 0 15px;
 }
 
-.headerLogo {
+.headerLogoMobile {
     font-family: "Liquido";
     font-size: 48px;
     letter-spacing: 5px;
     color: #9CF6FB;
     align-self: center;
+}
+
+.headerLogo {
+    display: none;
 }
 
 .headerSocialIcons {
@@ -27,5 +31,26 @@
 
     &:hover {
         cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 452px) {
+    .headerLogoMobile {
+        display: none;
+    }
+
+    .headerLogo {
+        display: flex;
+        font-family: "Liquido";
+        font-size: 48px;
+        letter-spacing: 5px;
+        color: #9CF6FB;
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .headerContainer {
+        padding: 0 35px;
     }
 }

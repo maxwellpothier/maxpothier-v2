@@ -1,0 +1,16 @@
+.reviewContentContainter {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 10px;
+    margin-top: -50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.reviewContentText {
+    background: white;
+}
+
+.reviewContentInfo {
+    border: 1px solid blue;
+}
