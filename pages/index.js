@@ -11,9 +11,6 @@ const HomePage = () => {
 			<WaveBackground/>
 			<PageHeader title={"Blog"} subtitle={"Recent Posts"}/>
 			<PostsList/>
-			<Link href={"./posts/post-template"}>
-				<a>Post Template</a>
-			</Link>
 		</>
   	);
 };

@@ -12,6 +12,10 @@
     letter-spacing: 5px;
     color: #9CF6FB;
     align-self: center;
+    
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .headerLogo {
@@ -46,6 +50,10 @@
         letter-spacing: 5px;
         color: #9CF6FB;
         align-self: center;
+        
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 

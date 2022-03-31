@@ -1,6 +1,7 @@
-.reviewContentContainter {
+.reviewContentContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 50px;
 }
 
@@ -10,10 +11,38 @@
     padding: 0 10px;
     border-radius: 5px;
     box-shadow: 0 0 12px #808080;
+    max-width: 484px;
 }
 
 .reviewContentCover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.reviewContentGrade {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.reviewContentGradeText {
+    font-size: 48px;
+    font-family: "Alfa Slab";
+    color: #394F8A;
+    padding: 15px;
+    border: 5px solid #394F8A;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+    .reviewContentContainer {
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .reviewContentText {
+        grid-column: span 2;
+    }   
 }

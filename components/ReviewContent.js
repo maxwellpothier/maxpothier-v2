@@ -3,12 +3,12 @@ import Image from "next/image";
 
 import styles from "./reviewContent.module.scss";
 
-const ReviewContent = () => {
+const ReviewContent = ({ albumCover, albumRating }) => {
     return (
-        <div className={styles.reviewContentContainter}>
+        <div className={styles.reviewContentContainer}>
             <div className={styles.reviewContentCover}>
                 <Image
-                        src={"https://i.scdn.co/image/ab67616d00001e02932b996af72dfeaf5a72ef58"}
+                        src={albumCover}
                         alt={"Test Photo"}
                         width={200}
                         height={200}
@@ -18,7 +18,7 @@ const ReviewContent = () => {
                 <ReviewParagraph/>
             </div>
             <div className={styles.reviewContentGrade}>
-                <span>9.2</span>
+                <span className={styles.reviewContentGradeText}>{albumRating}</span>
             </div>
         </div>
     );
