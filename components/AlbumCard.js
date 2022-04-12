@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -22,5 +23,9 @@ const AlbumCard = ({album}) => {
         </Link>
     );
 };
+
+AlbumCard.propTypes = {
+	album: PropTypes.object.isRequired,
+}
 
 export default AlbumCard;

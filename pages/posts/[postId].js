@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Header from "../../components/headers/Header";
 import WaveBackground from "../../components/WaveBackground";
 import PageHeader from "../../components/headers/PageHeader";
@@ -45,5 +46,9 @@ const PostTemplate = ({ postAlbum }) => {
         </div>
     );
 };
+
+PostTemplate.propTypes = {
+	postAlbum: PropTypes.object.isRequired,
+}
 
 export default PostTemplate;

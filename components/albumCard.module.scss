@@ -1,3 +1,5 @@
+@import "styles/colors";
+
 .albumCardContainer {
     display: flex;
     flex-direction: column;
@@ -7,9 +9,9 @@
     margin: 20px;
     max-width: 200px;
     padding: 15px;
-    background-color: white;
+    background-color: $white;
     border-radius: 5px;
-    box-shadow: 0 0 12px #808080;
+    box-shadow: 0 0 12px $gray;
     height: 292px;
     transition: transform 250ms ease-in;
 
@@ -26,7 +28,7 @@
 
 .albumCardImage {
     margin-bottom: 10px;
-    // box-shadow: 0 0 5px #808080;
+    // box-shadow: 0 0 5px $gray;
 }
 
 .albumCardBottomSection {
@@ -48,7 +50,7 @@
 .albumCardArtist::after {
     content: '';
     position: absolute;
-    background: #4A5FC1;
+    background: $indigo;
     display: block;
     width: 100%;
     height: 2px;

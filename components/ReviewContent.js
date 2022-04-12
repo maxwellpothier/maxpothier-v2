@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import ReviewParagraph from "./ReviewParagraph";
 import Image from "next/image";
 
@@ -22,6 +23,11 @@ const ReviewContent = ({ albumCover, albumRating }) => {
             </div>
         </div>
     );
+};
+
+ReviewContent.propTypes = {
+	albumCover: PropTypes.string.isRequired,
+	albumRating: PropTypes.string.isRequired,
 };
 
 export default ReviewContent;

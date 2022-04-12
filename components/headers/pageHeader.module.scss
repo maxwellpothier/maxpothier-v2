@@ -1,3 +1,5 @@
+@import "styles/colors";
+
 .pageHeaderContainer {
     display: flex;
     flex-direction: column;
@@ -8,7 +10,7 @@
     margin-bottom: 50px;
     z-index: 10;
     position: relative;
-    color: #394F8A;
+    color: $chambray;
 }
 
 .pageHeaderTitle {

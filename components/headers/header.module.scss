@@ -1,5 +1,7 @@
+@import "styles/colors";
+
 .headerContainer {
-    background-color: #4A5FC1;
+    background-color: $indigo;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -10,7 +12,7 @@
     font-family: "Liquido";
     font-size: 48px;
     letter-spacing: 5px;
-    color: #9CF6FB;
+    color: $anakiwa;
     align-self: center;
     
     &:hover {
@@ -31,7 +33,7 @@
 
 .headerIcon {
     font-size: 24px;
-    color: #9CF6FB;
+    color: $anakiwa;
 
     &:hover {
         cursor: pointer;
@@ -48,7 +50,7 @@
         font-family: "Liquido";
         font-size: 48px;
         letter-spacing: 5px;
-        color: #9CF6FB;
+        color: $anakiwa;
         align-self: center;
         
         &:hover {

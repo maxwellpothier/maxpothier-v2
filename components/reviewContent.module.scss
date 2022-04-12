@@ -1,3 +1,5 @@
+@import "styles/colors";
+
 .reviewContentContainer {
     display: flex;
     flex-direction: column;
@@ -10,7 +12,7 @@
     margin: 0 10px;
     padding: 0 10px;
     border-radius: 5px;
-    box-shadow: 0 0 12px #808080;
+    box-shadow: 0 0 12px $gray;
     max-width: 484px;
 }
 
@@ -29,9 +31,9 @@
 .reviewContentGradeText {
     font-size: 48px;
     font-family: "Alfa Slab";
-    color: #394F8A;
+    color: $chambray;
     padding: 15px;
-    border: 5px solid #394F8A;
+    border: 5px solid $chambray;
     border-radius: 50%;
 }
 

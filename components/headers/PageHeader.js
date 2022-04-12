@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import styles from "./pageHeader.module.scss";
 
 const PageHeader = ({title, subtitle}) => {
@@ -8,5 +9,10 @@ const PageHeader = ({title, subtitle}) => {
         </div>
     );
 };
+
+PageHeader.propTypes = {
+	title: PropTypes.string.isRequired,
+	subtitle: PropTypes.string.isRequired,
+}
 
 export default PageHeader;
