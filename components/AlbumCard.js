@@ -5,7 +5,7 @@ import styles from "./albumCard.module.scss";
 
 const AlbumCard = ({album}) => {
     return (
-        <Link href={`/posts/${album.slug}`}>
+        <Link href={`/posts/${album.slug}`} passHref>
             <div className={styles.albumCardContainer}>
                 <div className={styles.albumCardImage}>
                     <Image
