@@ -6,10 +6,10 @@ import styles from "./header.module.scss";
 const Header = () => {
     return (
         <div className={styles.headerContainer}>
-            <Link href={"/"}>
+            <Link href={"/"} passHref>
                 <span className={styles.headerLogo}>What&apos;s Turning?</span>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/"} passHref>
                 <span className={styles.headerLogoMobile}>WT?</span>
             </Link>
             <ul className={styles.headerSocialIcons}>
