@@ -26,6 +26,6 @@ const AlbumCard = ({album}) => {
 
 AlbumCard.propTypes = {
 	album: PropTypes.object.isRequired,
-}
+};
 
 export default AlbumCard;

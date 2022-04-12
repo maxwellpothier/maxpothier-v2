@@ -49,6 +49,6 @@ const PostTemplate = ({ postAlbum }) => {
 
 PostTemplate.propTypes = {
 	postAlbum: PropTypes.object.isRequired,
-}
+};
 
 export default PostTemplate;
